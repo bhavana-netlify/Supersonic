@@ -61,6 +61,29 @@ p{
     margin-left: 0px;
 }
 
+button{
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    background: none;
+    color: gray;
+    font-size: 14px;
+    font-family: sans-serif
+}
+
+label{
+    border: none;
+    padding: 0;
+    background: none;
+    
+}
+button:hover {
+    background-color: #ebebeb;
+  }
+  
+button:active {
+    background-color: #bbbcbe;
+  }
 .machines{
     
     width: 100%;
