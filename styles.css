@@ -71,10 +71,18 @@ button{
     font-family: sans-serif
 }
 
-label{
-    border: none;
-    padding: 0;
-    background: none;
+input{
+    text-align: left;
+    vertical-align: bottom;
+    color: inherit;
+    border: 0;
+    border-bottom: 1px solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: indianred;
+    border-image-slice: 1;
+    max-width: 40%;
+  }
     
 }
 button:hover {
